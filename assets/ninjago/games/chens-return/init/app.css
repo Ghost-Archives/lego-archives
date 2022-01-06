@@ -1,0 +1,125 @@
+/* 
+    Created on : 28.10.2020, 17:52:59
+    Author     : Paul Schlichter
+*/
+
+
+/* css reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    
+    overflow: -moz-scrollbars-none;
+    scrollbar-width: none;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #000;
+}
+
+#fscontainer
+{
+    position: absolute;
+}
+
+#stage
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+#debugBox
+{
+    width: 250px;
+    height: 20px;
+    background-color: #000;
+    
+    padding: 5px;
+    
+    font-family: sans-serif;
+    color: #FFF;
+    
+    opacity: 0.5;
+    
+    position: absolute;
+}
+
+#debugStartPanel
+{
+    width: 400px;
+    height: 100px;
+    visibility: hidden;
+}
+
+#debugStartButton
+{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #FFF;
+    background-color: #000;
+}
+
+
+
+
+@keyframes fadein
+{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeout
+{
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@keyframes xscale_to_zero
+{
+    from 
+    { 
+        width: 424px;
+        left: -212px;
+    }
+    to 
+    { 
+        width: 0px;
+        left: 0px;
+    }
+}
+
+@keyframes start_button
+{
+    0%
+    {
+        transform: scale( 0.8 );
+        opacity: 0;
+    }
+    50%
+    {
+        transform: scale( 1.1 );
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale( 1 );
+        opacity: 1;
+    }
+}

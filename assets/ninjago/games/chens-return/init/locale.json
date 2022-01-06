@@ -1,0 +1,117 @@
+{
+    "debug" : false,
+    "debugLevel" : "3",
+    "useZipLoader" : true,
+    "version" : "_r6",
+    "allowFullscreen" : true,
+    "showPolicies" : true,
+    "useCookie" : true,
+
+    "privacy" :
+    {
+        "cs-cz" :
+        {
+            "link" : "https://www.lego.com/cs-cz/kids/legal/privacy-policy-short",
+            "label" : "Ochrana osobních údajů"
+        },			
+        "de-de" :
+        {
+            "link" : "https://www.lego.com/de-de/kids/legal/privacy-policy-short",
+            "label" : "Datenschutz"
+        },
+        "en-us" :
+        {
+            "link" : "https://www.lego.com/en-us/kids/legal/privacy-policy-short",
+            "label" : "Privacy Policy"
+        },
+        "es-es" :
+        {
+            "link" : "https://www.lego.com/es-es/kids/legal/privacy-policy-short",
+            "label" : "Política de privacidad"
+        },
+        "fr-fr" :
+        {
+            "link" : "https://www.lego.com/fr-fr/kids/legal/privacy-policy-short",
+            "label" : "Vie privée"
+        },
+        "ja-jp" :
+        {
+            "link" : "https://www.lego.com/ja-jp/kids/legal/privacy-policy-short",
+            "label" : "プライバシーポリシー"
+        },
+        "ko-kr" :
+        {
+            "link" : "https://www.lego.com/ko-kr/kids/legal/privacy-policy-short",
+            "label" : "회사소개"
+        },
+        "ru-ru" :
+        {
+            "link" : "https://www.lego.com/ru-ru/kids/legal/privacy-policy-short",
+            "label" : "Политика конфиденциальности"
+        },
+        "zh-hk" :
+        {
+            "link" : "https://www.lego.com/zh-hk/kids/legal/privacy-policy-short",
+            "label" : "私隱政策"
+        },
+        "zh-tw" :
+        {
+            "link" : "https://www.lego.com/zh-tw/kids/legal/privacy-policy-short",
+            "label" : "隱私權政策"
+        }
+    },
+
+    "cookies" :
+    {
+        "cs-cz" :
+        {
+            "link" : "https://www.lego.com/cs-cz/kids/legal/cookie-policy",
+            "label" : "Soubory cookie"
+        },
+        "de-de" :
+        {
+            "link" : "https://www.lego.com/de-de/kids/legal/cookie-policy",
+            "label" : "Cookies"
+        },
+        "en-us" :
+        {
+            "link" : "https://www.lego.com/en-us/kids/legal/cookie-policy",
+            "label" : "Cookie Policy"
+        },
+        "es-es" :
+        {
+            "link" : "https://www.lego.com/es-es/kids/legal/cookie-policy",
+            "label" : "Cookies"
+        },
+        "fr-fr" :
+        {
+            "link" : "https://www.lego.com/fr-fr/kids/legal/cookie-policy",
+            "label" : "Cookies"
+        },        
+        "ja-jp" :
+        {
+            "link" : "https://www.lego.com/ja-jp/kids/legal/cookie-policy",
+            "label" : "Cookie"
+        },
+        "ko-kr" :
+        {
+            "link" : "https://www.lego.com/ko-kr/kids/legal/cookie-policy",
+            "label" : "지원"
+        },
+        "ru-ru" :
+        {
+            "link" : "https://www.lego.com/ru-ru/kids/legal/cookie-policy",
+            "label" : "Cookie-файлы"
+        },
+        "zh-hk" :
+        {
+            "link" : "https://www.lego.com/zh-hk/kids/legal/cookie-policy",
+            "label" : "Cookie"
+        },
+        "zh-tw" :
+        {
+            "link" : "https://www.lego.com/zh-tw/kids/legal/cookie-policy",
+            "label" : "Cookie"
+        }
+    }
+}

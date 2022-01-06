@@ -1,0 +1,7 @@
+{
+  "short_name": "Lego Kids",
+  "name": "Lego Kids",
+  "start_url": "/?source=pwa",
+  "display": "standalone",
+  "scope": "/"
+}
